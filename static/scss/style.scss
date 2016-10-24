@@ -1,0 +1,34 @@
+body {
+  margin:  0px;
+  padding: 0px;
+  background-color: #252b3a;
+}
+div {
+  text-align: center;
+}
+
+$buttonSize: 300px;
+
+button {
+  width:  $buttonSize;
+  height: $buttonSize;
+  border-radius: 100%;
+  border-width: 20px;
+  border-color: #546170;
+  font-size: 50px;
+  color: white;
+  text-shadow: 0px 0px 40px whitesmoke;
+  position: absolute;
+  top: 40%;
+  outline: none;
+  cursor: pointer;
+  margin-left: $buttonSize / 2 * -1;
+}
+.offButton {
+  background-color: #db5461;
+  border-style: outset;
+}
+.onButton {
+  background-color: #54d367;
+  border-style: inset;
+}
