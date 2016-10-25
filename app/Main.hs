@@ -1,3 +1,8 @@
+{-
+  David Lettier (C) 2016.
+  http://www.lettier.com/
+-}
+
 {-# LANGUAGE OverloadedStrings #-}
 
 import Lib

@@ -1,22 +1,13 @@
-name:                 haskell-timer-chrome-ext
-version:              0.1.0.0
-synopsis:             
--- description:
--- license:
--- license-file:
-homepage:             
-author:               Jigar Gosar
-maintainer:           jigar.gosar@gmail.com
-category:             
--- copyright:
-build-type:           Simple
--- extra-source-files:
-cabal-version:        >=1.10
+name:                onOffButton
+author:              David Lettier
+version:             0.0.0.1
+build-type:          Simple
+cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
   exposed-modules:     Lib
-  build-depends:       base >=4.7 && <4.9
+  build-depends:       base
                      , haskell-src-exts >= 1.16 && < 1.18
                      , reflex == 0.4.0
                      , reflex-dom
@@ -24,11 +15,11 @@ library
                      , safe == 0.3.*
   default-language:    Haskell2010
 
-executable haskell-timer-chrome-ext
+executable onOffButton-exe
   hs-source-dirs:      app
   main-is:             Main.hs
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
-  build-depends:       base >=4.7 && <4.9
+  build-depends:       base
                      , onOffButton
                      , haskell-src-exts >= 1.16 && < 1.18
                      , reflex == 0.4.0

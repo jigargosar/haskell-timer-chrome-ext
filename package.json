@@ -1,14 +1,6 @@
 {
-  "name": "haskell-timer-chrome-ext",
-  "version": "1.0.0",
-  "description": "haskell-timer-chrome-ext",
-  "repository":{
-
-  },
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "onOffButton",
+  "author": "David Lettier",
   "scripts": {
     "scss": "mkdir -p dist/ && node-sass --output-style compressed static/scss/style.scss dist/css/style.css",
     "autoprefixer": "postcss -u autoprefixer -r dist/css/style.css dist/css/style.css",
